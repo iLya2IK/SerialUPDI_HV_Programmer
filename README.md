@@ -11,13 +11,13 @@
 3. Разъем USB поверхностного монтажа переделан в разъем типа JST XH2.54
 4. В целях упрощения ручной пайки используются более крупные SMD компоненты форм-фактора 1206 для емкостей и 0805 для резисторов
 
-![updi_hv_reset_top.png](https://raw.githubusercontent.com/iLya2IK/main/SerialUPDI_HV_Programmer/images/updi_hv_reset_top.png)
-![updi_hv_reset_btm.png](https://raw.githubusercontent.com/iLya2IK/main/SerialUPDI_HV_Programmer/images/updi_hv_reset_btm.png)
+![updi_hv_reset_top.png](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_top.png)
+![updi_hv_reset_btm.png](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_btm.png)
 
 Устройство собрано и протестировано. Для программирования использовал утилиту [Pure-C utility for programming AVR devices with UPDI interface using a standard TTL serial port](https://github.com/Polarisru/updiprog). Удалось записать hex файл, выставить/сбросить фьюзы с заблокированным пином UPDI.
 
-![updi_hv_reset_photo1.jpg](https://raw.githubusercontent.com/iLya2IK/main/SerialUPDI_HV_Programmer/images/updi_hv_reset_photo1.jpg)
-![updi_hv_reset_photo2.jpg](https://raw.githubusercontent.com/iLya2IK/main/SerialUPDI_HV_Programmer/images/updi_hv_reset_photo2.jpg)
+![updi_hv_reset_photo1.jpg](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_photo1.jpg)
+![updi_hv_reset_photo2.jpg](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_photo2.jpg)
 
 # References and copyrights
 * [ATtiny214/414/814. Datasheet Preliminary](https://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf)
