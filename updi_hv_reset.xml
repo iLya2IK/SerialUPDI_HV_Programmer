@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>/home/ilya/projects/kicad/updi_hv_reset/updi_hv_reset.kicad_sch</source>
-    <date>Вт 22 авг 2023 14:04:11</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu22.04.1</tool>
+    <date>Чт 12 окт 2023 10:31:57</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
+        <title>UPDI_HV_PROGRAMMER_ILYA2IK</title>
+        <company>SGGDEV</company>
+        <rev>1</rev>
         <date/>
         <source>updi_hv_reset.kicad_sch</source>
         <comment number="1" value=""/>
@@ -184,7 +184,7 @@
     </comp>
     <comp ref="J2">
       <value>USB</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="updi_hv_reset.kicad_sch"/>
@@ -238,7 +238,7 @@
       <tstamps>5a8d234d-726c-400f-9c32-a637ee4f8fb9</tstamps>
     </comp>
     <comp ref="LED2">
-      <value>PWR</value>
+      <value>PRG</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -249,9 +249,8 @@
       <tstamps>1631ef8e-f16f-46df-89d4-fe06b3a8bd57</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>DMG2301L</value>
+      <value>PMV65XP</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2301L.pdf</datasheet>
       <libsource lib="Transistor_FET" part="DMG2301L" description="-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="updi_hv_reset.kicad_sch"/>
@@ -626,7 +625,7 @@
     <net code="2" name="+5V">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
@@ -650,7 +649,7 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
@@ -712,11 +711,11 @@
       <node ref="U1" pin="8" pinfunction="TXD" pintype="output"/>
     </net>
     <net code="16" name="UDM">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="UD-" pintype="bidirectional"/>
     </net>
     <net code="17" name="UDP">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="UD+" pintype="bidirectional"/>
     </net>
     <net code="18" name="UPDI">
