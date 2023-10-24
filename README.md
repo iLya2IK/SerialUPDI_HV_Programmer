@@ -18,6 +18,7 @@
 
 ![updi_hv_reset_photo1.jpg](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_photo1.jpg)
 ![updi_hv_reset_photo2.jpg](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_photo2.jpg)
+![updi_hv_reset_photo2.jpg](https://raw.githubusercontent.com/iLya2IK/SerialUPDI_HV_Programmer/main/images/updi_hv_reset_box.jpg)
 
 # References and copyrights
 * [ATtiny214/414/814. Datasheet Preliminary](https://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf)
