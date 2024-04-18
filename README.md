@@ -23,5 +23,5 @@
 # References and copyrights
 * [ATtiny214/414/814. Datasheet Preliminary](https://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf)
 * [SerialUPDI HV Programmer based on CH340E and MT360](https://github.com/wagiminator/AVR-Programmer/blob/master/SerialUPDI_HV_Programmer)
-* [Pure-C utility for programming AVR devices with UPDI interface using a standard TTL serial port](https://github.com/Polarisru/updiprog)
+* [Pure-C utility for programming AVR devices with UPDI interface using a standard TTL serial port](https://github.com/iLya2IK/updiprog)
 * Copyright (c) 2023, Ilya Medvedkov
